@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UserGithub from './githubuser';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <center>
+    <UserGithub source="https://api.github.com/users/Andrew513" />
+    </center>
   </React.StrictMode>,
   document.getElementById('root')
 );
